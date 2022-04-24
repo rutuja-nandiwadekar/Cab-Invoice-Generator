@@ -14,8 +14,6 @@ public class InvoiceServiceTest {
         double fare = invoiceService.calculateFare(distance, time);
         //delta for deprecated
         Assert.assertEquals(25, fare, 0.0);
-
     }
-
 }
 
