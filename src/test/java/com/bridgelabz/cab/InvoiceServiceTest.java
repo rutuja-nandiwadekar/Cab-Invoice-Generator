@@ -15,6 +15,7 @@ public class InvoiceServiceTest {
         //delta for deprecated
         Assert.assertEquals(25, fare, 0.0);
     }
+    
     //STEP 1 V2 : Minimum Fare
     @Test
     public void givenLessDistanceOrTime_ShouldReturnMinFare(){
